@@ -11,7 +11,7 @@ table {
 }
 .text {
     color: #f3f7fa;
-    font-size: 35px;
+    font-size: 30px;
 }
 #face {
     display: flex;
@@ -29,14 +29,14 @@ table {
     margin-right: 100px;
 }
 #face ul li {
-    margin-right: 20px;
+    margin-right: 5px;
 }
 #face ul li a {
     color: #fff;
     text-decoration: none;
 }
 #face h1 {
-    font-size: 55px;
+    font-size: 30px;
     text-align: end;
     margin-right: 100px;
 }
@@ -53,7 +53,7 @@ table {
 }
 .cen {
     text-align: center;
-    font-weight: bold;
+    
 }
 .list {
     list-style: none;
