@@ -223,12 +223,12 @@
     }
    
     .video {
-      width: 65%;
+      width: 70%;
       padding: 25px 15px 0px 25px;
     }
    
     .right {
-      width: 35%;
+      width: 30%;
       height: auto;
     }
     .video iframe {
@@ -250,7 +250,7 @@
     }
    
     .video {
-      width: 70%;
+      width: 75%;
       padding: 30px 20px 0px 30px;
     }
    
