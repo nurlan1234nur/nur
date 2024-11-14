@@ -4,7 +4,7 @@ let davhar = 9;
 let orts = 3;
 let ail = 4;
 toot -= 1;
-if(toot>108){
+if(toot<=108){
 var N = toot / (davhar * ail) + 1;
 document.writeln(parseInt(N) + "-r orts");
 var M = (toot % (davhar * ail)) / ail + 1;
