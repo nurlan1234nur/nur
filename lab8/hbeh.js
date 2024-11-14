@@ -29,4 +29,4 @@ function arrayXBEX(arr) {
 }
 const r = arrayXBEX(arr);
 
-document.writeln("Xamgiin baga yeronhii hubaagdagch: " + r);
+document.writeln("Hbeh: " + r);
