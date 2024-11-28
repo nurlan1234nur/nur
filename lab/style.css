@@ -207,10 +207,12 @@
   }
   
   .nur{
+    width: 100%;
     margin-top: 20px;
     background-color:#e2e7e6 ;
   }
   .recommendation-box {
+    
     background-color: white;
     text-align: center;
     padding: 20px;
@@ -254,7 +256,6 @@
   
   
   footer {
-    margin-top: 15px;
   }
   .foot-panel1 {
     background-color: #37475a;
