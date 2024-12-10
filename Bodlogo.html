@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+canvas {
+      border: 1px solid black;
+      margin-left: 400px;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Zurdag bodlogo</h2>
+<canvas id="drawing" width="800" height="600"></canvas>
+
+<script>
+
+var canvas = document.getElementById("drawing");
+  var ctx = canvas.getContext("2d");
+
+
+  let a = false;
+
+  canvas.addEventListener("mousedown", function (event) {
+    a = true;
+    ctx.beginPath(); 
+    ctx.moveTo(event.offsetX, event.offsetY); 
+  });
+
+
+  canvas.addEventListener("mousemove", function (event) {
+    if (a) {
+      ctx.lineTo(event.offsetX, event.offsetY); 
+      ctx.stroke(); 
+    }
+  });
+
+  
+  canvas.addEventListener("mouseup", function () {
+    a = false;
+    ctx.closePath(); 
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  });
+
+  
+</script>
+
+</body>
+</html>
