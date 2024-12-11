@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /private/
 Allow: /public/
-Sitemap: https://https://nurlan1234nur.github.io/nur/amaz/index.html/sitemap.xml
+Sitemap: https://nurlan1234nur.github.io/nur/amaz/sitemap.xml
