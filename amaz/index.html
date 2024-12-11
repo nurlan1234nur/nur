@@ -6,21 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Discover the best products on Amazon. Shop top-rated items and enjoy fast delivery to your door." />
     <meta name="keywords" content="Amazon, shopping, electronics, fashion, home essentials" />
-    
     <!-- Canonical URL to ensure a single version of the page -->
     <link rel="canonical" href="https://www.example.com" />
-    
     <!-- OpenGraph Meta Tags -->
     <meta property="og:title" content="Amazon.com - Best Commercial Site for Everyone" />
     <meta property="og:description" content="Discover top-rated products and enjoy fast delivery. Shop electronics, fashion, and more!" />
     <meta property="og:url" content="https://www.example.com" />
     <meta property="og:image" content="https://www.example.com/logo.png" />
     <meta property="og:type" content="website" />
-    
     <!-- External Resources -->
     <title>Amazon.com - Best Commercial Site for Everyone</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
+    
+    <!-- Schema Markup: Product -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Gaming Accessories",
+      "image": "https://example.com/images/gaming-accessories.jpg",
+      "description": "High-quality gaming accessories for a better gaming experience.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Brand Name"
+      },
+      "sku": "12345",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.example.com/product/gaming-accessories",
+        "priceCurrency": "USD",
+        "price": "99.99",
+        "priceValidUntil": "2024-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
   </head>
   <body>
     <header>
@@ -99,7 +121,7 @@
         <div class="box">
           <div class="box-content">
             <h2>Shop for Your Home Essentials</h2>
-            <div class="box-img" style="background-image: url('shop for ur homw.png');"></div>
+            <div class="box-img" style="background-image: url('shop\ for\ ur\ homw.png');"></div>
             <p>See more</p>
           </div>
         </div>
