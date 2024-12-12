@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="mn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мэдээний сайт</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Мэдээ</h1>
+    </header>
+    <div id="news-list"></div>
+    <footer> &copy; 2024 Мэдээний сайт. </footer>
+
+    <script>
+      const xhr = new XMLHttpRequest();
+      xhr.open("GET", "document.xml");
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(xhr.responseText, "text/xml");
+
+          const items = xmlDoc.getElementsByTagName("item");
+          const newsList = document.getElementById("news-list");
+
+          for (let i = 0; i < items.length; i++) {
+            const title = items[i].getElementsByTagName("title")[0].textContent;
+
+            const newsItem = document.createElement("div");
+            newsItem.classList.add("news");
+
+            const titleElement = document.createElement("a");
+            titleElement.href = `medee.html?index=${i}`;
+            titleElement.textContent = title;
+
+            newsItem.appendChild(titleElement);
+            newsList.appendChild(newsItem);
+          }
+        } else {
+          console.error("RSS татахад алдаа гарлаа.");
+        }
+      };
+
+      xhr.onerror = function () {
+        console.error("Хүсэлт илгээхэд алдаа гарлаа.");
+      };
+
+      xhr.send();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="mn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мэдээний дэлгэрэнгүй</title>
+    <link rel="stylesheet" href="medee.css">
+  </head>
+  <body>
+    <h3>Мэдээний дэлгэрэнгүй</h3>
+    <div id="news"></div>
+    <a class="back-btn" href="index.html">Буцах</a>
+    <footer> &copy; 2024 Мэдээний сайт. </footer>
+
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const index = params.get("index");
+
+      const newsDetailContainer = document.getElementById("news");
+
+      const xhr = new XMLHttpRequest();
+      xhr.open("GET", "document.xml");
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(xhr.responseText, "text/xml");
+
+          const items = xmlDoc.getElementsByTagName("item");
+          if (index >= 0 && index < items.length) {
+            const item = items[index];
+            const title = item.getElementsByTagName("title")[0].textContent;
+            const description =
+              item.getElementsByTagName("description")[0].textContent;
+
+            const newsItem = document.createElement("div");
+            newsItem.classList.add("news-item");
+
+            const titleElement = document.createElement("h2");
+            titleElement.textContent = title;
+            newsItem.appendChild(titleElement);
+
+            const descriptionElement = document.createElement("div");
+            descriptionElement.innerHTML = description;
+            newsItem.appendChild(descriptionElement);
+
+            newsDetailContainer.appendChild(newsItem);
+          } else {
+            newsDetailContainer.textContent = "Мэдээ олдсонгүй!";
+          }
+        } else {
+          console.error("XML файл уншихад алдаа гарлаа!");
+        }
+      };
+
+      xhr.onerror = function () {
+        console.error("XML хүсэлт илгээхэд алдаа гарлаа!");
+      };
+
+      xhr.send();
+    </script>
+  </body>
+</html>
