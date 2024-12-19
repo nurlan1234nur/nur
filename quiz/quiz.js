@@ -51,15 +51,15 @@ function showQuestion() {
     currentQuestion.options.forEach(choice => {
       const button = document.createElement("button");
       button.textContent = choice;
-      button.onclick = () => checkAnswer(choice, button);
+      button.onclick = () => checkAnswer(choice);
       choicesContainer.appendChild(button);
     });
-  } else {
+  } else {  
     showResults();
   }
 }
 
-function checkAnswer(selectedChoice, selectedButton) {
+function checkAnswer(selectedChoice) {
   const currentQuestion = questions[currentQuestionIndex];
   const feedbackContainer = document.getElementById("feedback");
 
