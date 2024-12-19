@@ -1,0 +1,260 @@
+/* Ерөнхий хэв маяг */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #e6f7ff; /* Цагаан → Цайвар цэнхэр градиент */
+
+}
+
+/* Хуудасны үндсэн хэсэг */
+main {
+    flex: 1; /* Агуулгыг дүүргэх */
+     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #4c66af;
+    color: white;
+    margin-top: auto; /* Footer-ийг доод талд байлгах */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Хөтөч самбар (Navigation Bar) */
+.topnav {
+    background-color:   #4c66af;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topnav a:hover {
+    background-color: #4c66af;
+    color: white;
+}
+
+.topnav a.active {
+    background-color:  #4c66af;
+}
+
+/* Хуудасны төвлөрөл */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+#quiz-btns-bg {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+/* Товчлуурууд */
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4c66af;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #4c66af;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: #4c66af;
+    transform: scale(1);
+}
+
+/* Quiz карт хэсэг */
+#quiz-container {
+    background: #e6f7ff; /* Зөөлөн цэнхэр өнгө */
+    width: 90%;
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#choices button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#choices button:hover {
+    background-color: #005f73;
+    transform: scale(1.05);
+}
+
+#choices button:active {
+    background-color: #004e61;
+    transform: scale(1);
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Үр дүнгийн хэсэг */
+#quiz-container h2 {
+    color:  #4c66af;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#quiz-container p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+#quiz-container button{
+    margin: 5px;
+}
+/* Welcome Section */
+.welcome-container {
+    background: #e6f7ff; /* Цэнхэр градиент */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcome-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.welcome-container p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.gif-container img {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Start Quiz Button */
+.start-quiz-btn {
+    background-color: #4c66af;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.start-quiz-btn:hover {
+    background-color:  #4c66af;
+    transform: scale(1.1);
+}
+
+/* Main Quiz Section */
+.quiz-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.quiz-container h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.quiz-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.quiz-item {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.quiz-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.quiz-item img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.quiz-btn {
+    background-color:  #4c66af;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.quiz-btn:hover {
+    background-color:  x#4c66af;
+    transform: translateY(-3px);
+}
+.about-container {
+    max-width: 800px;
+    margin: 40px ;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

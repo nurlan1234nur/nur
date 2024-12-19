@@ -3,21 +3,19 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
 }
 
 .topnav {
-    overflow: hidden;
     background-color: #333;
-    padding: 10px 0;
+    overflow: hidden;
 }
 
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
 }
 
@@ -26,16 +24,25 @@ body {
     color: black;
 }
 
-button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
+.about-container {
+    padding: 20px;
+    margin: 20px;
 }
 
-button:hover {
-    background-color: #45a049;
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #444;
+}
+
+section {
+    margin: 20px 0;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
 }
