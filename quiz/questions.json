@@ -1,321 +1,324 @@
 [
-    {
-        
-            "category": "әлем",
+    [
+        {
+            "category": "html",
             "questions": [
                 {
-                    "question": "Дүниенің ең биік тау қандай?",
-                    "options": ["Эверест", "К2", "Канченжунга", "Лхоцзе"],
-                    "answer": "Эверест"
+                    "question": "What does HTML stand for?",
+                    "options": ["Hyper Text Markup Language", "High Tech Markup Language", "Home Tool Markup Language", "Hyperlink Text Mark Language"],
+                    "answer": "Hyper Text Markup Language"
                 },
                 {
-                    "question": "Дүниенің ең үлкен мұхиты қайсы?",
-                    "options": ["Атлант мұхиты", "Үнді мұхиты", "Солтүстік Мұзды мұхит", "Тынық мұхиты"],
-                    "answer": "Тынық мұхиты"
+                    "question": "Which tag is used to create a hyperlink?",
+                    "options": ["<a>", "<href>", "<link>", "<url>"],
+                    "answer": "<a>"
                 },
                 {
-                    "question": "Дүниенің ең ұзын өзені қайсы?",
-                    "options": ["Амазонка", "Ніл", "Янцзы", "Миссисипи"],
-                    "answer": "Ніл"
+                    "question": "What is the purpose of the `<head>` tag in HTML?",
+                    "options": ["To style the page", "To define the body", "To link to other files", "To contain metadata"],
+                    "answer": "To contain metadata"
                 },
                 {
-                    "question": "Дүниенің ең үлкен шөлі қайсы?",
-                    "options": ["Сахара шөлі", "Гоби", "Антарктида", "Калахари"],
-                    "answer": "Антарктида"
+                    "question": "Which tag is used to display an image in HTML?",
+                    "options": ["<picture>", "<img>", "<image>", "<media>"],
+                    "answer": "<img>"
                 },
                 {
-                    "question": "Дүниенің ең терең теңіз ойысы қайсы?",
-                    "options": ["Мариан ойысы", "Тонга ойысы", "Курил-Камчатка ойысы", "Ява ойысы"],
-                    "answer": "Мариан ойысы"
+                    "question": "What does the `<title>` tag define?",
+                    "options": ["The document's title", "The footer text", "A section title", "The main header"],
+                    "answer": "The document's title"
                 },
                 {
-                    "question": "Дүниенің ең үлкен аралы қайсы?",
-                    "options": ["Гренландия", "Новая Земля", "Мадагаскар", "Британ аралдары"],
-                    "answer": "Гренландия"
+                    "question": "What is the correct syntax for a comment in HTML?",
+                    "options": ["/* comment */", "// comment", "<!-- comment -->", "# comment"],
+                    "answer": "<!-- comment -->"
                 },
                 {
-                    "question": "Дүниенің ең үлкен қаласы қайсы?",
-                    "options": ["Токио", "Дели", "Шанхай", "Сеул"],
-                    "answer": "Токио"
+                    "question": "Which tag is used to define a list item?",
+                    "options": ["<ul>", "<li>", "<ol>", "<list>"],
+                    "answer": "<li>"
                 },
                 {
-                    "question": "Дүниенің ең төменгі нүктесі қайсы?",
-                    "options": ["Өлі Теңіз", "Мариан ойысы", "Африка", "Сахара"],
-                    "answer": "Өлі Теңіз"
+                    "question": "What does the `<footer>` tag define?",
+                    "options": ["Footer content", "Document title", "Page heading", "Navigation bar"],
+                    "answer": "Footer content"
                 },
                 {
-                    "question": "Дүниенің ең ұзын жаяу жүру жолы қайсы?",
-                    "options": ["Пештегі Монте", "Сібір Жолы", "Әлемдік Қабырға", "Сидней - Ванкувер Жолы"],
-                    "answer": "Пештегі Монте"
+                    "question": "Which tag is used for the largest heading?",
+                    "options": ["<h1>", "<title>", "<header>", "<h6>"],
+                    "answer": "<h1>"
                 },
                 {
-                    "question": "Дүниенің ең қалың орманы қайсы?",
-                    "options": ["Амазон орманы", "Сібір тайга", "Конго орманы", "Қара орман"],
-                    "answer": "Амазон орманы"
+                    "question": "What does the `<br>` tag do?",
+                    "options": ["Creates a blank space", "Creates a line break", "Adds bold text", "Starts a new paragraph"],
+                    "answer": "Creates a line break"
                 },
                 {
-                    "question": "Дүниенің ең биік ғимараты қайсы?",
-                    "options": ["Бурдж Халифа", "Шанхай мұнарасы", "Петронас мұнаралары", "Эмпайр Стейт Билдинг"],
-                    "answer": "Бурдж Халифа"
+                    "question": "Which attribute specifies the URL of a linked document?",
+                    "options": ["href", "link", "src", "url"],
+                    "answer": "href"
                 },
                 {
-                    "question": "Дүниенің ең көп сандары бар мекені қайсы?",
-                    "options": ["Қытай", "Үндістан", "Америка Құрама Штаттары", "Мексика"],
-                    "answer": "Қытай"
+                    "question": "What is the correct syntax for creating an ordered list?",
+                    "options": ["<ordered>", "<ul>", "<ol>", "<list>"],
+                    "answer": "<ol>"
                 },
                 {
-                    "question": "Дүниенің ең суық орны қайсы?",
-                    "options": ["Антарктида", "Сібір", "Гренландия", "Аляска"],
-                    "answer": "Антарктида"
+                    "question": "What is the `<table>` tag used for?",
+                    "options": ["To create a table", "To insert an image", "To link a file", "To format text"],
+                    "answer": "To create a table"
                 },
                 {
-                    "question": "Дүниенің ең ірі ауыл шаруашылығы өнімінің экспортшысы қайсы?",
-                    "options": ["Америка Құрама Штаттары", "Канада", "Қытай", "Үндістан"],
-                    "answer": "Америка Құрама Штаттары"
+                    "question": "What does the `<div>` tag represent?",
+                    "options": ["An inline element", "A header", "A division or section", "A list"],
+                    "answer": "A division or section"
                 },
                 {
-                    "question": "Дүниенің ең көне қаласы қайсы?",
-                    "options": ["Багдад", "Дамаск", "Иерусалим", "Каир"],
-                    "answer": "Дамаск"
+                    "question": "Which input type is used to create a password field?",
+                    "options": ["password", "secure", "hidden", "text"],
+                    "answer": "password"
                 },
                 {
-                    "question": "Дүниенің ең ұзын ғимараты қайсы?",
-                    "options": ["Бурдж Халифа", "Шанхай мұнарасы", "Женевская башня", "Мерседес Тауэр"],
-                    "answer": "Бурдж Халифа"
+                    "question": "Which attribute is used to uniquely identify an element?",
+                    "options": ["id", "class", "name", "type"],
+                    "answer": "id"
                 },
                 {
-                    "question": "Дүниенің ең таза суы бар ел қайсы?",
-                    "options": ["Швеция", "Норвегия", "Финляндия", "Жаңа Зеландия"],
-                    "answer": "Швеция"
+                    "question": "What is the purpose of the `<form>` tag?",
+                    "options": ["To create user input forms", "To create links", "To display images", "To embed media"],
+                    "answer": "To create user input forms"
                 },
                 {
-                    "question": "Дүниенің ең үлкен көлі қайсы?",
-                    "options": ["Каспий теңізі", "Балқаш көлі", "Өлке көлі", "Алакөл"],
-                    "answer": "Каспий теңізі"
+                    "question": "Which tag is used to define a horizontal line?",
+                    "options": ["<hr>", "<line>", "<border>", "<divider>"],
+                    "answer": "<hr>"
                 },
                 {
-                    "question": "Дүниенің ең жарқын қала қайсы?",
-                    "options": ["Лас-Вегас", "Токио", "Нью-Йорк", "Дубай"],
-                    "answer": "Лас-Вегас"
+                    "question": "What does the `<meta>` tag provide?",
+                    "options": ["Metadata about the document", "Page navigation", "Footer content", "Main heading"],
+                    "answer": "Metadata about the document"
+                },
+                {
+                    "question": "Which tag is used to embed a video?",
+                    "options": ["<media>", "<video>", "<embed>", "<source>"],
+                    "answer": "<video>"
                 }
             ]
-                
-    },
-    {
-        "category": "монғолия",
-        "questions": [
-            {
-                "question": "Моңғолияның ең биік тау қандай?",
-                "options": ["Отгонтэнгэр", "Хүйтэн оргил", "Мөнххайрхан", "Бурхан Халдун"],
-                "answer": "Хүйтэн оргил"
-            },
-            {
-                "question": "Моңғолияның ең үлкен көлі қайсы?",
-                "options": ["Хөвсгөл көлі", "Увс көлі", "Хараа көлі", "Буйр көлі"],
-                "answer": "Увс көлі"
-            },
-            {
-                "question": "Моңғолияның ең ұзын өзені қайсы?",
-                "options": ["Орхон", "Туул", "Сэлэнгэ", "Хэрлэн"],
-                "answer": "Орхон"
-            },
-            {
-                "question": "Моңғолияның ең үлкен шөлі қайсы?",
-                "options": ["Гоби", "Бурхан Халдун", "Зүүнбаян", "Алтай"],
-                "answer": "Гоби"
-            },
-            {
-                "question": "Моңғолияның астанасы қандай қала?",
-                "options": ["Эрдэнэт", "Дархан", "Улаанбаатар", "Чойбалсан"],
-                "answer": "Улаанбаатар"
-            },
-            {
-                "question": "Моңғолияның ең үлкен аралы қайсы?",
-                "options": ["Хөвсгөл", "Орхон аралы", "Сүхбаатар аралы", "Байгаль аралы"],
-                "answer": "Хөвсгөл"
-            },
-            {
-                "question": "Моңғолияда ең көп сөйлейтін тіл қайсы?",
-                "options": ["Моңғол тілі", "Қазақ тілі", "Орыс тілі", "Қытай тілі"],
-                "answer": "Моңғол тілі"
-            },
-            {
-                "question": "Моңғолияның ең үлкен қаласы қайсы?",
-                "options": ["Улаанбаатар", "Дархан", "Эрдэнэт", "Чойбалсан"],
-                "answer": "Улаанбаатар"
-            },
-            {
-                "question": "Моңғолияның ең терең көлі қайсы?",
-                "options": ["Хөвсгөл көлі", "Саят көлі", "Түйн гол", "Талын-Өнжү"],
-                "answer": "Хөвсгөл көлі"
-            },
-            {
-                "question": "Моңғолияның ең биік ғимараты қайсы?",
-                "options": ["Бурхан Халдун", "Улаанбаатардың мемлекеттік театр", "Сүхбаатар ғимараты", "Моңғолияның ұлттық кітапханасы"],
-                "answer": "Бурхан Халдун"
-            },
-            {
-                "question": "Моңғолияның мемлекеттік тіл қайсы?",
-                "options": ["Моңғол тілі", "Қазақ тілі", "Орыс тілі", "Қытай тілі"],
-                "answer": "Моңғол тілі"
-            },
-            {
-                "question": "Моңғолияның ең ұзын жолы қайсы?",
-                "options": ["Тулкин-Жалғай", "М-12 тас жолы", "Коён-села жолы", "Жүрт жолы"],
-                "answer": "М-12 тас жолы"
-            },
-            {
-                "question": "Моңғолияның ең бай табиғи ресурсы қайсы?",
-                "options": ["Көмір", "Мұнай", "Алтын", "Молибден"],
-                "answer": "Көмір"
-            },
-            {
-                "question": "Моңғолияның ең танымал туризм бағыты қайсы?",
-                "options": ["Хөвсгөл көлі", "Гоби шөлі", "Сэнгүр", "Алтай"],
-                "answer": "Гоби шөлі"
-            },
-            {
-                "question": "Моңғолияның мемлекеттік туының түсі қандай?",
-                "options": ["Қызыл, көк, сары", "Қызыл, жасыл", "Сары, көк", "Қара, көк"],
-                "answer": "Қызыл, көк, сары"
-            },
-            {
-                "question": "Моңғолияның ең үлкен мүйісі қайсы?",
-                "options": ["Солтүстік мүйіс", "Оңтүстік мүйіс", "Батыс мүйіс", "Шығыс мүйіс"],
-                "answer": "Солтүстік мүйіс"
-            },
-            {
-                "question": "Моңғолияның ең биік тауы қайсы?",
-                "options": ["Отгонтэнгэр", "Таван богд", "Бурхан Халдун", "Шунхард"],
-                "answer": "Отгонтэнгэр"
-            },
-            {
-                "question": "Моңғолияның ең үлкен орманы қайсы?",
-                "options": ["Сібір тайга", "Гоби шөлі", "Хөвсгөл орманы", "Тундра орманы"],
-                "answer": "Хөвсгөл орманы"
-            },
-            {
-                "question": "Моңғолияның басты экономикасы қай салалардан тұрады?",
-                "options": ["Ауыл шаруашылығы", "Өнеркәсіп және тау-кен өндіру", "Қызмет көрсету", "Барлығы"],
-                "answer": "Барлығы"
-            },
-            {
-                "question": "Моңғолияның ең үлкен мыс кен орны қайсы?",
-                "options": ["Эрдэнэт", "Дархан", "Тавантолгой", "Алтанцөгц"],
-                "answer": "Эрдэнэт"
-            },
-            {
-                "question": "Моңғолияның ұлттық тойы қайсы?",
-                "options": ["Наурыз", "Жеңіс күні", "Төрт түліктің тойы", "Қошқар тойы"],
-                "answer": "Наурыз"
-            }
-        ]
-    }
+        }
+    ]
     ,
     {
-        "category": "қазақстан",
+        "category": "css",
         "questions": [
             {
-                "question": "Қазақстанның ең биік тауы қандай?",
-                "options": ["Хан Тәңірі", "Белуха тауы", "Алтай тау", "Қырғыз Алатауы"],
-                "answer": "Хан Тәңірі"
+                "question": "What does CSS stand for?",
+                "options": ["Creative Style Sheets", "Computer Style Sheets", "Cascading Style Sheets", "Colorful Style Sheets"],
+                "answer": "Cascading Style Sheets"
             },
             {
-                "question": "Қазақстанның ең үлкен қаласы қайсы?",
-                "options": ["Нұр-Сұлтан", "Алматы", "Шымкент", "Қарағанды"],
-                "answer": "Алматы"
+                "question": "Which property is used to change the text color of an element?",
+                "options": ["font-color", "color", "background-color", "text-color"],
+                "answer": "color"
             },
             {
-                "question": "Қазақстанның ең ұзын өзені қайсы?",
-                "options": ["Іле", "Ертіс", "Сырдария", "Орал"],
-                "answer": "Ертіс"
+                "question": "Which property is used to change the background color of an element?",
+                "options": ["bgcolor", "color", "background", "background-color"],
+                "answer": "background-color"
             },
             {
-                "question": "Қазақстанның ең үлкен көлі қайсы?",
-                "options": ["Каспий теңізі", "Балқаш көлі", "Өлке көлі", "Алакөл"],
-                "answer": "Каспий теңізі"
+                "question": "What is the default position value of an HTML element?",
+                "options": ["static", "relative", "absolute", "fixed"],
+                "answer": "static"
             },
             {
-                "question": "Қазақстанның астанасы қандай қала?",
-                "options": ["Нұр-Сұлтан", "Алматы", "Шымкент", "Тараз"],
-                "answer": "Нұр-Сұлтан"
+                "question": "Which property is used to set the space inside an element?",
+                "options": ["padding", "spacing", "margin", "border"],
+                "answer": "padding"
             },
             {
-                "question": "Қазақстанның ең биік ғимараты қайсы?",
-                "options": ["Бәйтерек", "Қазақ елі монументі", "Нұр-Алтын ғимараты", "Астана Опера"],
-                "answer": "Бәйтерек"
+                "question": "Which CSS property controls the font size?",
+                "options": ["size", "font-size", "font-style", "text-size"],
+                "answer": "font-size"
             },
             {
-                "question": "Қазақстанның ұлттық валютасы қандай?",
-                "options": ["теңге", "рубль", "доллар", "юань"],
-                "answer": "теңге"
+                "question": "How do you make a list not display bullets?",
+                "options": ["display: none;", "list-type: none;", "list-style: none;", "text-decoration: none;"],
+                "answer": "list-style: none;"
             },
             {
-                "question": "Қазақстанның ең терең көлі қайсы?",
-                "options": ["Балқаш көлі", "Алакөл", "Өлке көлі", "Каспий теңізі"],
-                "answer": "Каспий теңізі"
+                "question": "Which CSS property is used to make text bold?",
+                "options": ["text-transform", "font-weight", "text-decoration", "font-style"],
+                "answer": "font-weight"
             },
             {
-                "question": "Қазақстанның ең ұзын көлі қайсы?",
-                "options": ["Каспий теңізі", "Балқаш көлі", "Өлке көлі", "Алакөл"],
-                "answer": "Каспий теңізі"
+                "question": "How do you link an external CSS file to your HTML document?",
+                "options": ["<css href='styles.css'>", "<link rel='stylesheet' href='styles.css'>", "<style src='styles.css'>", "<link src='styles.css'>"],
+                "answer": "<link rel='stylesheet' href='styles.css'>"
             },
             {
-                "question": "Қазақстанның ең үлкен шөлі қайсы?",
-                "options": ["Бетпақдала", "Қызылқұм", "Мойынқұм", "Теңіз"],
-                "answer": "Қызылқұм"
+                "question": "Which property is used to align text to the center?",
+                "options": ["align-text", "text-position", "center-align", "text-align"],
+                "answer": "text-align"
             },
             {
-                "question": "Қазақстанның ұлттық символы қандай?",
-                "options": ["Қанат", "Арыстан", "Бүркіт", "Айбын"],
-                "answer": "Бүркіт"
+                "question": "How do you add a shadow to a text in CSS?",
+                "options": ["font-shadow", "shadow-text", "text-shadow", "text-decoration"],
+                "answer": "text-shadow"
             },
             {
-                "question": "Қазақстанның ең үлкен қаласы қайсы?",
-                "options": ["Нұр-Сұлтан", "Алматы", "Шымкент", "Қарағанды"],
-                "answer": "Алматы"
+                "question": "Which property is used to set the width of an element?",
+                "options": ["width", "size", "length", "height"],
+                "answer": "width"
             },
             {
-                "question": "Қазақстанның ең биік су қоймасы қайсы?",
-                "options": ["Шардара су қоймасы", "Капчагай су қоймасы", "Талдысу су қоймасы", "Жайық су қоймасы"],
-                "answer": "Шардара су қоймасы"
+                "question": "What is the correct way to apply a CSS class to an HTML element?",
+                "options": ["style='classname'", "class='classname'", "id='classname'", "css='classname'"],
+                "answer": "class='classname'"
             },
             {
-                "question": "Қазақстанның ең үлкен табиғи резерват қайсы?",
-                "options": ["Қорғалжын", "Алматы резерват", "Тарбағатай", "Семей орманы"],
-                "answer": "Қорғалжын"
+                "question": "Which property specifies the type of positioning method used for an element?",
+                "options": ["display", "position", "float", "align"],
+                "answer": "position"
             },
             {
-                "question": "Қазақстанның астанасы қай жылы Алматыдан Нұр-Сұлтанға ауыстырылды?",
-                "options": ["1997", "2000", "2005", "2010"],
-                "answer": "1997"
+                "question": "How do you make an element invisible?",
+                "options": ["visibility: hidden;", "opacity: 0;", "All of the above", "display: none;"],
+                "answer": "All of the above"
             },
             {
-                "question": "Қазақстанның ең танымал ұлттық тағамы қандай?",
-                "options": ["Бешбармақ", "Палау", "Манты", "Қуырдақ"],
-                "answer": "Бешбармақ"
+                "question": "Which CSS property is used to control the order of a flex item?",
+                "options": ["position", "order", "z-index", "flex-order"],
+                "answer": "order"
             },
             {
-                "question": "Қазақстанның ең үлкен ұлттық паркі қайсы?",
-                "options": ["Алтай", "Баянауыл", "Қарқаралы", "Қапшағай"],
-                "answer": "Алтай"
+                "question": "How do you specify a transition effect for a CSS property?",
+                "options": ["transition", "transform", "animate", "effect"],
+                "answer": "transition"
             },
             {
-                "question": "Қазақстанның ең жоғары орманы қайсы?",
-                "options": ["Көкшетау орманы", "Алтай орманы", "Жетісу орманы", "Талас орманы"],
-                "answer": "Алтай орманы"
+                "question": "Which property is used to control the spacing between lines of text?",
+                "options": ["letter-spacing", "line-spacing", "line-height", "text-spacing"],
+                "answer": "line-height"
             },
             {
-                "question": "Қазақстанның ең танымал тарихы қайда орналасқан?",
-                "options": ["Арал теңізі", "Тарихи Жібек жолы", "Ертіс өңірі", "Қызылорда"],
-                "answer": "Тарихи Жібек жолы"
+                "question": "What is the default display value for the <div> element?",
+                "options": ["block", "inline", "inline-block", "none"],
+                "answer": "block"
             },
             {
-                "question": "Қазақстанның ең ұзын тау жотасы қайсы?",
-                "options": ["Тянь-Шань", "Алтай", "Қаратау", "Жетісу Алатауы"],
-                "answer": "Тянь-Шань"
+                "question": "Which pseudo-class is used to define the style of a link when it has been visited?",
+                "options": [":link", ":active", ":hover", ":visited"],
+                "answer": ":visited"
             }
         ]
     }
+    
+    ,
+    {
+        "category": "javascript",
+        "questions": [
+            {
+                "question": "Which company developed JavaScript?",
+                "options": ["Netscape", "Microsoft", "Google", "Sun Microsystems"],
+                "answer": "Netscape"
+            },
+            {
+                "question": "Which symbol is used for comments in JavaScript?",
+                "options": ["//", "/* */", "#", "--"],
+                "answer": "//"
+            },
+            {
+                "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+                "options": ["<script src='script.js'>", "<script href='script.js'>", "<script link='script.js'>", "<script file='script.js'>"],
+                "answer": "<script src='script.js'>"
+            },
+            {
+                "question": "How do you create a function in JavaScript?",
+                "options": ["function myFunction() {}", "def myFunction() {}", "create myFunction() {}", "function = myFunction() {}"],
+                "answer": "function myFunction() {}"
+            },
+            {
+                "question": "How can you add a single-line comment in JavaScript?",
+                "options": ["// This is a comment", "<!-- This is a comment -->", "# This is a comment", "/* This is a comment */"],
+                "answer": "// This is a comment"
+            },
+            {
+                "question": "How do you write an 'if' statement in JavaScript?",
+                "options": ["if (condition) {}", "if condition {}", "if condition then {}", "if (condition):"],
+                "answer": "if (condition) {}"
+            },
+            {
+                "question": "How do you declare a variable in JavaScript?",
+                "options": ["var myVariable;", "variable myVariable;", "let myVariable;", "All of the above"],
+                "answer": "All of the above"
+            },
+            {
+                "question": "Which method is used to find the length of a string in JavaScript?",
+                "options": ["length()", "getLength()", "length", "size()"],
+                "answer": "length"
+            },
+            {
+                "question": "What is the output of 'typeof null' in JavaScript?",
+                "options": ["object", "null", "undefined", "string"],
+                "answer": "object"
+            },
+            {
+                "question": "What is the correct way to write a JavaScript array?",
+                "options": ["var colors = ['red', 'green', 'blue'];", "var colors = 'red', 'green', 'blue';", "var colors = (1:'red', 2:'green', 3:'blue');", "var colors = {'red', 'green', 'blue'};"],
+                "answer": "var colors = ['red', 'green', 'blue'];"
+            },
+            {
+                "question": "How do you round a number to the nearest integer in JavaScript?",
+                "options": ["Math.round()", "Math.ceil()", "Math.floor()", "round()"],
+                "answer": "Math.round()"
+            },
+            {
+                "question": "Which keyword is used to check whether a property exists in an object?",
+                "options": ["in", "exists", "hasProperty", "contains"],
+                "answer": "in"
+            },
+            {
+                "question": "Which method is used to convert a JSON object to a string in JavaScript?",
+                "options": ["JSON.stringify()", "JSON.parse()", "JSON.toString()", "JSON.convert()"],
+                "answer": "JSON.stringify()"
+            },
+            {
+                "question": "What will 'console.log(0.1 + 0.2 === 0.3)' output?",
+                "options": ["false", "true", "undefined", "NaN"],
+                "answer": "false"
+            },
+            {
+                "question": "How do you create an object in JavaScript?",
+                "options": ["var obj = {};", "var obj = new Object();", "Object.create();", "All of the above"],
+                "answer": "All of the above"
+            },
+            {
+                "question": "How do you call a function named 'myFunction' in JavaScript?",
+                "options": ["myFunction()", "call myFunction()", "function myFunction()", "execute myFunction()"],
+                "answer": "myFunction()"
+            },
+            {
+                "question": "What is the difference between '==' and '===' in JavaScript?",
+                "options": ["'==' checks value only, '===' checks value and type", "'===' is for assignment", "'==' is faster", "No difference"],
+                "answer": "'==' checks value only, '===' checks value and type"
+            },
+            {
+                "question": "How do you find the largest number in an array?",
+                "options": ["Math.max(...array)", "array.max()", "Math.max(array)", "max(array)"],
+                "answer": "Math.max(...array)"
+            },
+            {
+                "question": "Which statement is used to stop a loop?",
+                "options": ["break", "stop", "exit", "return"],
+                "answer": "break"
+            },
+            {
+                "question": "How do you check if an array includes a specific value?",
+                "options": ["array.includes(value)", "array.contains(value)", "array.has(value)", "array.find(value)"],
+                "answer": "array.includes(value)"
+            }
+        ]
+    }
+    
     
 ]
