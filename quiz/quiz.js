@@ -83,14 +83,23 @@ function nextQuestion() {
 }
 
 function showResults() {
-  const quizContainer = document.getElementById("quiz-container");
-  quizContainer.innerHTML = `
-    <h2>Quiz Completed!</h2>
-    <p>Your score is ${score} out of ${questions.length}.</p>
-    <button onclick="restartQuiz()">Restart Quiz</button>
-    <button onclick="selectQuiz()">Select Another Quiz</button>
-  `;
+  let photo;
+const quizContainer = document.getElementById("quiz-container");
+if(score>5){
+ photo = `https://emojiisland.com/cdn/shop/products/Emoji_Icon_-_Sunglasses_cool_emoji_large.png?v=1571606093`
+}else
+{
+  photo=`https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3Gv7npJEIDXjCYebAwIxLdljhNphb5GTgXP5WQm3L7odsa72WgS-VMPpJbI7BDrwGJnD64EFVVQsT8BNUGZ_hn4j_lXGZrc2NYoad911zWuQEkvOTuuoo628GpGJe4t5E_eBnKZ_GEmwF/s1600/this-big-emoji.png`
 }
+quizContainer.innerHTML = `
+   <img src="${photo}" alt="Result Image" style="max-width: 150px; margin: 20px 0;">
+  <h2>Quiz Completed!</h2>
+  <p>Your score is ${score} out of ${questions.length}.</p>
+  <button onclick="restartQuiz()">Restart Quiz</button>
+  <button onclick="selectQuiz()">Select Another Quiz</button>
+`;
+}
+
 
 function restartQuiz() {
   currentQuestionIndex = 0;
