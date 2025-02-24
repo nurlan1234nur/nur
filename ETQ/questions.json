@@ -1,0 +1,30 @@
+[
+    {
+      "category": "suyekshi",
+      "questions": [
+        {
+          "question": "Казахстаны нийслэл аль вэ?",
+          "options": ["Алматы", "Астана", "Шымкент", "Актобе"],
+          "answer": "Астана",
+          "image": "https://example.com/image1.jpg"
+        },
+        {
+          "question": "Казахстаны үндэсний амьтан аль вэ?",
+          "options": ["Арслан", "Бар", "Цагаан ирвэс", "Бүргэд"],
+          "answer": "Цагаан ирвэс"
+        }
+      ]
+    },
+    {
+      "category": "olen_kara_soz",
+      "questions": [
+        {
+          "question": "'The Road Not Taken' шүлгийг хэн бичсэн бэ?",
+          "options": ["William Wordsworth", "Robert Frost", "Emily Dickinson", "John Keats"],
+          "answer": "Robert Frost",
+          "image": "https://example.com/image2.jpg"
+        }
+      ]
+    }
+  ]
+  
