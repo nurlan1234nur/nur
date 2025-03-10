@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="VancouverTitle">City Vancouver</string>
+    <string name="VancouverDescription">Vancouver</string>
+    <string name="PexelTitle">Pexel City</string>
+    <string name="PexelDescription">Pexel</string>
+    <string name="CityTitle">City NY</string>
+    <string name="CityDescription">NY</string>
+</resources>
