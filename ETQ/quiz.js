@@ -61,15 +61,15 @@ function showQuestion() {
   }
 }
 
-function checkAnswer(selectedChoice, selectedButton) {
+function checkAnswer(selectedChoice) {
   const currentQuestion = questions[currentQuestionIndex];
   const feedbackContainer = document.getElementById("feedback");
 
   if (selectedChoice === currentQuestion.answer) {
     score++;
-    feedbackContainer.innerHTML = `<p style="color:green;">Зөв! ✅</p>`;
+    feedbackContainer.innerHTML = `<p style="color:green;"> ✅</p>`;
   } else {
-    feedbackContainer.innerHTML = `<p style="color:red;">Буруу ❌. Зөв хариулт: ${currentQuestion.answer}</p>`;
+    feedbackContainer.innerHTML = `<p style="color:red;"> ❌. Зөв хариулт: ${currentQuestion.answer}</p>`;
   }
 
   document.querySelectorAll("#choices button").forEach(button => button.disabled = true);
